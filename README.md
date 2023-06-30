@@ -20,12 +20,12 @@ The Auto Commit Master extension offers the following features:
 -  Make sure you have a Git repository initialized in your workspace.
 -  Open the Git source control panel by clicking on the Git icon in the activity bar on the sidebar.
 
-### Start button <img src="images/png/start.png" alt="SVG Image" width="22" height="16">
+### Start button <img src="images/png/start.png" alt="SVG Image" width="20" height="18">
 
 -  In the source control panel of top, click on the "Commit" icon button to start the automatic commit process.
 -  The Auto Commit Master will start automatically committing files in the background.
 
-### Stop button <img src="images/png/stop.png" alt="SVG Image" width="22" height="16">
+### Stop button <img src="images/png/stop.png" alt="SVG Image" width="20" height="20">
 
 -  while the extension is running, you can click on the "Stop" icon button to stop the automatic commit process.
 
