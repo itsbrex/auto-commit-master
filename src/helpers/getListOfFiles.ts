@@ -25,8 +25,11 @@ export const getFiles = async (): Promise<GitFiles> => {
         const promise = new Promise<void>((resolve, reject) => {
             const child: ChildProcess = spawn(command[0], command[1]);
             child.stdout?.on('data', (data: Buffer) => {
-                const filesData: string[] = data.toString().trim().split('\n');
-                files[key as keyof GitFiles] = filesData;
+                if (files[key as keyof GitFiles].length === 0) {
+                    const filesData: string[] = data.toString().trim().split('\n');
+                    console.log(`filesData ${key}`, filesData)
+                    files[key as keyof GitFiles] = filesData;
+                }
             });
             child.on('close', (code: number) => {
                 if (code !== 0) {
