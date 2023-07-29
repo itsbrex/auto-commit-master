@@ -3,7 +3,7 @@
    "displayName": "Auto Commit Master",
    "publisher": "SafdarAzeem",
    "description": "Generate commit messages automatically",
-   "version": "0.0.2",
+   "version": "0.0.3",
    "icon": "images/png/icon.png",
    "repository": "https://github.com/safdar-azeem/auto-commit-master",
    "engines": {
