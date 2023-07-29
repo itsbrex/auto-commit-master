@@ -50,6 +50,8 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Auto Commit Master started!');
 
 		await addGitCommits();
+		await addGitCommits();
+		await addGitCommits();
 
 		if (!stopFlag) {
 			vscode.window.showInformationMessage('All files are committed!');
