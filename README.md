@@ -25,7 +25,7 @@ The Auto Commit Master extension offers the following features:
 ### Start button <img src="images/png/start.png" alt="SVG Image" width="20" height="18">
 
 -  In the source control panel of top, click on the "Commit" icon button to start the automatic commit process.
--  The Auto Commit Master will start automatically committing files in the background.
+-  The Auto Commit Master will start automatically committing files in the background
 
 ### Stop button <img src="images/png/stop.png" alt="SVG Image" width="20" height="20">
 
